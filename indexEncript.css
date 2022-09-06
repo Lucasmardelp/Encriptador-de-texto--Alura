@@ -1,0 +1,656 @@
+*{
+
+
+ width: auto;
+
+
+}
+
+
+body {
+
+
+ 		width: 940px ;
+ 		background-image: url(imagenes/fondomini.jpeg) ;
+ 		background-size: cover no-repeat ;
+
+
+  }
+
+
+@font-face{  
+
+
+   font-family: "letrafont"; src: url(imagenes/fanAzul.ttf);
+
+   
+}
+
+
+.logo-encriptador{
+
+
+		width:40px;
+		position: absolute;
+		left: 20px;
+		
+
+
+}
+
+h1{
+
+
+  font-size: 80px;
+
+
+
+}
+
+.input-texto{
+
+
+
+	width: 50%;
+	height: 40%;
+    margin: 40px 40px;
+	position: absolute; top: 150px; left:70px;
+	font-size: 50px;
+	font-family: "letrafont";
+	background-color: blanchedalmond;
+	padding: 30px;
+	border-radius: 73px 73px 73px 73px;
+    -moz-border-radius: 73px 73px 73px 73px;
+    -webkit-border-radius: 73px 73px 73px 73px;
+	text-transform: lowercase; 
+	resize: none;
+
+	
+	
+	
+
+}
+
+::placeholder{
+
+
+
+	font-style: italic; 
+	font-weight: bolder;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	
+
+
+}
+
+
+.botones{
+
+
+	position: absolute; top: 680px; left: 380px;
+
+}
+
+.Encriptar{
+
+
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	background-color: violet;
+	margin: 0,0, 150px;
+    font-family:"letrafont" ;
+	font-size: 40px;
+	border-radius: 24px;
+	padding: 5px 60px;
+	width: 200px;
+    height: 67px;
+	border: none;
+	cursor: pointer;
+
+}
+
+.Encriptar:hover{
+
+
+     background-color: blueviolet;
+
+}
+
+.Desencriptar{
+
+
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	background-color: coral;
+	position: absolute; top: 0px; left: 250px;
+	margin: 0,150px;
+	font-family:"letrafont" ;
+	font-size: 40px;
+	border-radius: 24px;
+	padding: 5px 45px;
+	width: 200px;
+    height: 67px;
+	border: none;
+	cursor: pointer;
+    
+}
+
+.Desencriptar:hover{
+
+
+	background-color: orangered ;
+
+
+}
+
+
+.advertencia{
+
+    position: absolute;
+	right: 200px; 
+	bottom: -50px;
+	width: 150px;
+
+
+
+
+}
+
+.condiciones{
+
+	position: absolute;
+	top: 81%;
+	left: 18%;
+	width:500px;
+	height:20px;
+	background: hotpink;
+	padding: 10px;
+	text-align: center ;
+	border-radius: 73px 73px 73px 73px;
+    -moz-border-radius: 73px 73px 73px 73px;
+    -webkit-border-radius: 73px 73px 73px 73px;
+	resize: none;
+	font-size: 20px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+
+
+
+
+.caja-mensaje{
+
+	
+    position: absolute; top:10%; left: 69%;
+	font-size: 50px;
+	font-family: "letrafont";
+	height: 10em;
+	width: 8em;
+	
+	padding: 50px ;
+	border-radius: 73px 73px 73px 73px;
+    -moz-border-radius: 73px 73px 73px 73px;
+    -webkit-border-radius: 73px 73px 73px 73px;
+	
+
+	border-color: rgb(212, 169, 253);
+
+	resize: none;
+
+}
+
+
+
+
+.mensaje{
+
+	position: absolute; top:0%; left: 0%; ;;
+	font-size: 50px;
+	font-family: "letrafont";
+	background-color: rgb(245, 174, 245);
+	height: 10em;
+	width: 8em;
+	padding: 50px ;
+	border-radius: 73px 73px 73px 73px;
+    -moz-border-radius: 73px 73px 73px 73px;
+    -webkit-border-radius: 73px 73px 73px 73px;
+	resize: none;
+	
+
+
+
+
+}
+
+
+
+
+
+.copiar{
+
+
+	position: absolute; top: 105%; left: 30%;
+	background-color: mintcream;
+	width: 7em;
+    height:2em;
+	font-family:"letrafont" ;
+	font-size: 40px;
+	border-radius: 24px;
+	border-color: burlywood;
+	padding: 5px 45px;
+	width: 200px;
+    height: 67px;
+	cursor: pointer;
+
+
+
+
+}
+
+.copiar:hover{
+
+
+	background-color: burlywood;
+
+
+}
+
+@media screen and (min-width: 1042px) and (max-width: 1590px){ 
+
+	
+	
+  * {
+
+	   background-color: rgb(242, 201, 242);
+
+  }
+
+  .input-texto{
+
+		position: absolute;
+		width: 40%;
+		top: 50px;
+	}
+
+	.botones{
+
+
+		position: absolute;
+		top: 65%;
+		left: 15%;
+	}
+	 
+.advertencia{
+
+	position: absolute;
+	left: -80%;
+
+
+}
+ 
+.condiciones{
+
+	position: absolute;
+	left: 10%;
+
+
+}
+
+.caja-mensaje {
+
+	position: absolute;
+	left: 55%;
+
+}
+
+.copiar{
+
+	height: 80px;
+	width: 300px;
+	position: absolute;
+	left: 20%;
+	top: 102%;
+
+}
+}
+
+@media screen and (min-width: 412px) and (max-width: 914px){ 
+
+	
+	
+	* {
+  
+		 background-color: rgb(242, 201, 242);
+  
+	}
+  
+	.input-texto{
+  
+		  position: absolute;
+		  width: 100%;
+		  left: 0%;
+		  top: 50px;
+	  }
+  
+	  .botones{
+  
+  
+		  position: absolute;
+		  top: 65%;
+		  left: 15%;
+	  }
+	   
+
+  .advertencia{
+
+	background-position: 5em;
+	width: 80px;
+	top:100%;
+	left: -30%;
+
+
+
+  }
+  
+ 
+  .condiciones{
+  
+	  position: absolute;
+	  left: 5%;
+  
+  
+  }
+  
+  .caja-mensaje {
+  
+
+	  position: absolute;	
+	  width: 80%;	
+	  left: 7%;
+	  top: 90% ;
+  
+  }
+  
+  .copiar{
+  
+	  height: 80px;
+	  width: 300px;
+	  position: absolute;
+	  left: 20%;
+	  top: 102%;
+  
+  }
+  }
+  @media screen and (min-width: 375px) and (max-width: 667px){ 
+
+	
+	
+	* {
+  
+		 background-color: rgb(242, 201, 242);
+  
+	}
+  
+	.input-texto{
+  
+		  position: absolute;
+		  width: 100%;
+		  left: 0%;
+		  top: 50px;
+	  }
+  
+	  .botones{
+  
+  
+		  position: absolute;
+		  top: 65%;
+		  left: 15%;
+	  }
+	   
+
+  .advertencia{
+
+	background-position: 5em;
+	width: 50px;
+	top:100%;
+	left: -30%;
+
+
+
+  }
+  
+ 
+  .condiciones{
+  
+	  position: absolute;
+	  left: 5%;
+  
+  
+  }
+  
+  .caja-mensaje {
+  
+
+	  position: absolute;	
+	  width: 108%;	
+	  left: 7%;
+	  top: 90% ;
+  
+  }
+  
+  .copiar{
+  
+	  height: 80px;
+	  width: 300px;
+	  position: absolute;
+	  left: 20%;
+	  top: 102%;
+  
+  }
+  }
+  @media screen and (min-width: 540px) and (max-width: 720px){ 
+
+	
+	
+	* {
+  
+		 background-color: rgb(242, 201, 242);
+  
+	}
+  
+	.input-texto{
+  
+		  position: absolute;
+		  width: 100%;
+		  left: -7%;
+		  top: 50px;
+	  }
+  
+	  .botones{
+  
+  
+		  position: absolute;
+		  top: 65%;
+		  left: 15%;
+	  }
+	   
+
+  .advertencia{
+
+	background-position: 5em;
+	width: 50px;
+	top:100%;
+	left: -30%;
+
+
+
+  }
+  
+ 
+  .condiciones{
+  
+	  position: absolute;
+	  left: 5%;
+  
+  
+  }
+  
+  .caja-mensaje {
+  
+
+	  position: absolute;	
+	  width: 75%;	
+	  left: 7%;
+	  top: 90% ;
+  
+  }
+  
+  .copiar{
+  
+	  height: 80px;
+	  width: 300px;
+	  position: absolute;
+	  left: 20%;
+	  top: 102%;
+  
+  }
+  }
+
+  @media screen and (min-width: 360px) and (max-width: 740px){ 
+
+	
+	
+	* {
+  
+		 background-color: rgb(242, 201, 242);
+  
+	}
+  
+	.input-texto{
+  
+		  position: absolute;
+		  width: 100%;
+		  left: -7%;
+		  top: 50px;
+	  }
+  
+	  .botones{
+  
+  
+		  position: absolute;
+		  top: 65%;
+		  left: 15%;
+	  }
+	   
+
+  .advertencia{
+
+	background-position: 5em;
+	width: 50px;
+	top:100%;
+	left: -30%;
+
+
+
+  }
+  
+ 
+  .condiciones{
+  
+	  position: absolute;
+	  left: 5%;
+  
+  
+  }
+  
+  .caja-mensaje {
+  
+
+	  position: absolute;	
+	  width: 75%;	
+	  left: 7%;
+	  top: 90% ;
+  
+  }
+  
+  .copiar{
+  
+	  height: 80px;
+	  width: 300px;
+	  position: absolute;
+	  left: 20%;
+	  top: 102%;
+  
+  }
+  }
+  @media screen and (min-width: 320px) and (max-width: 882px){ 
+
+	
+	
+	* {
+  
+		 background-color: rgb(242, 201, 242);
+  
+	}
+  
+	.input-texto{
+  
+		  position: absolute;
+		  width: 130%;
+		  left: -7%;
+		  top: 50px;
+	  }
+  
+	  .botones{
+  
+  
+		  position: absolute;
+		  top: 65%;
+		  left: 15%;
+	  }
+	   
+
+  .advertencia{
+
+	background-position: 5em;
+	width: 50px;
+	top:100%;
+	left: -30%;
+
+
+
+  }
+  
+ 
+  .condiciones{
+  
+	  position: absolute;
+	  left: 5%;
+  
+  
+  }
+  
+  .caja-mensaje {
+  
+
+	  position: absolute;	
+	  width: 75%;	
+	  left: 7%;
+	  top: 90% ;
+  
+  }
+  
+  .copiar{
+  
+	  height: 80px;
+	  width: 300px;
+	  position: absolute;
+	  left: 20%;
+	  top: 102%;
+  
+  }
+  }

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	
+
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="indexEncript.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai&family
+    =Montserrat:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai&family=Montserrat
+	:wght@300&family=Nixie+One&display=swap" rel="stylesheet">
+
+	
+
+
+    <title>Encriptador</title>
+
+
+</head>
+
+
+
+
+
+<body>
+
+ <header>
+ 	
+ <img class="logo-encriptador" src="imagenes/Vector.png" alt="logo alura">
+ 		
+
+
+ </header>
+
+ <main>
+ 	
+ 	<section   class="Divison-principal">
+
+	
+
+     	<textarea   class="input-texto" cols="70" row="50" placeholder= "Ingrese el texto aquí"></textarea>
+		
+	    
+	
+				<div  class="botones">
+
+
+					
+ 		 		
+				<button    class="Encriptar" onclick="btnencriptar()" > Encriptar </button>
+
+ 		 		<button  class="Desencriptar" onclick="btndesencripta()">Desencriptar</button>
+				
+				<img class="advertencia" src="imagenes/exclamda.png" alt= "condicion  uso">
+					
+		
+ 		 		</div>
+				 
+			<div class= "condiciones"   > <strong>Utilice solo letras minúsculas y sin acento</strong></div>
+			
+ 	</section>
+
+ 	
+	
+	
+	<section class="caja-mensaje">
+ 		
+		
+
+	
+		
+		
+		
+		
+		 <div >
+
+			<textarea class="mensaje" cols="20" row= "70"></textarea>
+			<button class="copiar" onclick="copiar()">Copiar</button>
+		
+    	 </div>
+
+		
+			
+
+
+ 	</section>
+
+
+
+ </main>
+
+
+
+
+</body>
+  <script src="encrip.js"></script>
+</html>
